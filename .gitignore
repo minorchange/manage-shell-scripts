@@ -1,0 +1,11 @@
+# ignore everything
+*
+
+# except these files
+!.gitignore
+!main.py
+!Pipfile
+!scripts_dummy/dummy.sh
+!logger
+!logger/credentials-telegrambot-dummy.json
+!logger/logger.py
