@@ -11,7 +11,7 @@ if __name__ == "__main__":
     parser.add_argument("path")
     args = parser.parse_args()
     path = Path(args.path)
-    # path = "scripts_dummy"
+    
     scripts = [
         join(path, f)
         for f in listdir(path)
